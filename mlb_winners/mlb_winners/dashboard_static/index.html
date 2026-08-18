@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MLB Live Lab</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">LIVE MODEL · 24 BASE-OUT STATES</p>
+      <h1>MLB Live Lab</h1>
+    </div>
+    <div class="market-controls">
+      <div id="oddsStatus" class="status">Odds never refreshed</div>
+      <button id="refreshOdds" type="button">Refresh live odds</button>
+    </div>
+  </header>
+  <main>
+    <section class="summary-strip">
+      <div><span>Feed</span><strong id="feedStatus">Connecting</strong></div>
+      <div><span>Live games</span><strong id="gameCount">0</strong></div>
+      <div><span>Signal</span><strong>≥ 5.0% edge</strong></div>
+      <div><span>Model</span><strong>Pitch-aware v1</strong></div>
+    </section>
+    <div id="error" class="error hidden"></div>
+    <section id="slateView">
+      <div class="section-head"><h2>Today’s live slate</h2><span id="updatedAt"></span></div>
+      <div id="games" class="game-grid"><div class="empty">Waiting for a live pitch…</div></div>
+    </section>
+    <section id="detailView" class="hidden">
+      <button id="backButton" class="back" type="button">← Back to slate</button>
+      <div id="detail"></div>
+    </section>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

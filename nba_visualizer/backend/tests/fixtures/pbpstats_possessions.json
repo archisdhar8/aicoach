@@ -1,0 +1,41 @@
+[
+  {
+    "id": "17",
+    "period": 1,
+    "start_clock": "PT08M42.00S",
+    "end_clock": "PT08M21.00S",
+    "offense_team_id": "1610612744",
+    "defense_team_id": "1610612747",
+    "lineups_available": true,
+    "offensive_lineup": [
+      {"id": "201939", "name": "Stephen Curry", "team_id": "1610612744"},
+      {"id": "203110", "name": "Draymond Green", "team_id": "1610612744"},
+      {"id": "1630228", "name": "Jonathan Kuminga", "team_id": "1610612744"},
+      {"id": "1629672", "name": "Moses Moody", "team_id": "1610612744"},
+      {"id": "1641764", "name": "Brandin Podziemski", "team_id": "1610612744"}
+    ],
+    "defensive_lineup": [
+      {"id": "2544", "name": "LeBron James", "team_id": "1610612747"},
+      {"id": "203076", "name": "Anthony Davis", "team_id": "1610612747"},
+      {"id": "1629029", "name": "Luka Doncic", "team_id": "1610612747"},
+      {"id": "1629216", "name": "Gabe Vincent", "team_id": "1610612747"},
+      {"id": "1630559", "name": "Austin Reaves", "team_id": "1610612747"}
+    ],
+    "events": [
+      {"event_id": 102, "period": 1, "clock": "PT08M21.00S", "event_type": "3pt", "description": "Curry 26-foot three point jumper (Green assist)", "player_id": "201939", "assist_player_id": "203110", "team_id": "1610612744", "shot_x": -8.0, "shot_y": 250.0, "shot_type": "3PT Jump Shot", "shot_result": "Made", "points": 3},
+      {"event_id": 101, "period": 1, "clock": "PT08M42.00S", "event_type": "pass", "description": "Green pass to Curry", "player_id": "203110", "team_id": "1610612744"}
+    ]
+  },
+  {
+    "id": "18",
+    "period": 1,
+    "start_clock": "PT08M02.00S",
+    "end_clock": "PT07M55.00S",
+    "offense_team_id": "1610612747",
+    "defense_team_id": "1610612744",
+    "lineups_available": false,
+    "events": [
+      {"event_id": 103, "period": 1, "clock": "PT07M55.00S", "event_type": "turnover", "description": "Bad pass turnover", "player_id": "2544", "team_id": "1610612747"}
+    ]
+  }
+]

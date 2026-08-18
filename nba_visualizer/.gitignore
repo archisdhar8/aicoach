@@ -1,0 +1,17 @@
+node_modules/
+.next/
+dist/
+.DS_Store
+.env.local
+playwright-report/
+test-results/
+backend/.venv/
+backend/data/
+*.pyc
+*.tsbuildinfo
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+AGENTS.md
+CLAUDE.md
